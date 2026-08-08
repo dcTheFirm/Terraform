@@ -1,0 +1,39 @@
+WE WILL LEARN TERRAFORM >>
+
+
+🧠 Summary:
+Tool		       Purpose			     Example
+Terraform	Provision infrastructure	Create EC2, S3, VPC
+Ansible		Configure existing servers	Install Nginx, deploy app
+Together	Full automation pipeline	Terraform creates → Ansible configures
+
+
+
+🔹 Terraform is a tool for building,changing and versioning Infra safely and cleanly. 
+IT is compatible in many cloud and servers services.
+
+🔹 Steps in Terraform: 
+	Command  				Purpose
+	🔹tm init		Initialize Terraform project (reads .tf file created by user)
+	🔹tm plan		Preview changes (it shows what changes will occur)
+	🔹tm apply		Create/update infrastructure (apply to make change)
+	🔹tm destroy		Delete infrastructure
+	🔹tm fmt		Format your .tf files neatly
+	🔹tm validate		Check syntax correctness
+	
+	
+	
+	
+🔹 VARIABLES IN TERRAFORM> 
+1. Input variable : values given to tera.. to do something
+2. Output variable : Values comes from the code to to show something
+
+
+NOTE TO DO :: 
+- Always check the region in which you are running service. 
+
+- if the region is us-east-1 and in trrftm you are adding subnet which is in south-ap-1 , THEN 
+	congrats you will face Unwanted errors. 
+	
+	
+	
